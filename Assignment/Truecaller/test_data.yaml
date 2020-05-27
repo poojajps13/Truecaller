@@ -1,0 +1,36 @@
+[
+	{	
+		"model":"Truecaller.Contact",
+		"pk":54,
+		"fields":{
+			"name":"Prachi",
+			"phone_number":6543218768,
+			"email":"hjg@gmail.com",
+		}
+	},
+	{
+		"model":"auth.User",
+		"pk":65,
+		"fields":{
+			"username":"pranjal",
+			"password":"industrybuying",
+		}
+	},
+	{
+		"model":"Truecaller.Profile",
+		"pk":45,
+		"fields":{
+			"user":65,
+			"phone_number":8754321567,
+			"email":"jghkhl@gmail.com",
+		}
+	},
+	{
+		"model":"Truecaller.MapUserContact",
+		"pk":34,
+		"fields":{
+			"user":65,
+			"contact":54,
+		}
+	}
+]
